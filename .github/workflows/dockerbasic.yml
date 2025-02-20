@@ -14,7 +14,7 @@ env:
   IMAGE_REGISTRY_PASSWORD: ${{ secrets.GHCR_TOKEN }}
 
   IMAGE_TAGS: "1.0.${{ github.run_number }}"
-
+ 
 on:
   workflow_dispatch:
   push:
